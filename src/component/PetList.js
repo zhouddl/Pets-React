@@ -53,6 +53,7 @@ export default function PetList() {
 
   return (
     <div className="pet-list">
+      <h1>PETS<i>- react version</i></h1>
       {error && <div style={{ color: "red" }}>Failed: {String(error)}</div>}
       {loading 
       ? <div className="loading">Loading...</div> 
